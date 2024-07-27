@@ -78,6 +78,7 @@ body {
 
   &-q {
     flex: 1;
+    padding-bottom: .5em;
     max-height: 40dvh;
     height: auto;
     color: $dark-font;
@@ -88,6 +89,9 @@ body {
     resize: none;
     word-wrap: break-word;
     white-space: normal;
+  
+  
+    
     &:focus {
         
         outline: none;
@@ -96,7 +100,12 @@ body {
     
     
   }
-
+  &-icon{
+    padding: 0.5em;
+    // background-color: $e-dark;
+    border-radius: 50%;
+    // filter: drop-shadow(0 0 .5em gray) grayscale(20%);
+  }
   &-icon-enter {
     padding: 0.5em;
     background-color: $e-dark;
